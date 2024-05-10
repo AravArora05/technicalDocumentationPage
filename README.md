@@ -15,7 +15,8 @@ Remarks: On this project, I definetly wanted to take the next steps on learning 
 I created two media queries, one for tablets and one for phones. I'll add images underneath to show the responsiveness aspect of the website!
 
 Something that I really wanted to do a better job with is learning CSS variables and pseudoselectors. We haven't covered variables yet in the class, but I watched a Kevin Powell video on them! Here is the use!
-<img display="block" src="https://github.com/AravArora05/technicalDocumentationProject/assets/81041030/1da09305-640b-4266-a816-d205d23e1dc3" alt="Description of the image" width="300" height="200">
+
+<img src="https://github.com/AravArora05/technicalDocumentationProject/assets/81041030/1da09305-640b-4266-a816-d205d23e1dc3" alt="Description of the image" width="300" height="200" style="display: block;">
 
 
 
