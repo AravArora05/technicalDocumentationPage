@@ -13,3 +13,6 @@ CSS Styling:
   
 Remarks: On this project, I definetly wanted to take the next steps on learning about responsive web design! I think that I understand the important conceptual concepts about layouts well, but I didn't really understand media queries. I watched a couple of videos along with the FCC tutorials, and I was able to use them!
 I created two media queries, one for tablets and one for phones. I'll add images underneath to show the responsiveness aspect of the website!
+
+
+![image](https://github.com/AravArora05/technicalDocumentationProject/assets/81041030/c76842ac-cc07-4447-b228-af69cb078376)
