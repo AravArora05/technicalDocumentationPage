@@ -18,6 +18,7 @@ Something that I really wanted to do a better job with is learning CSS variables
 
 <img src="https://github.com/AravArora05/technicalDocumentationProject/assets/81041030/1da09305-640b-4266-a816-d205d23e1dc3" alt="Description of the image" width="300" height="200" style="display: block;">
 
+Computer View: https://youtu.be/NcqXL_QrFw0
+Mobile View: 
+Tablet View: Coming Soon :)
 
-
-Website View: 
