@@ -12,7 +12,11 @@ CSS Styling:
 - Code Snippets: Includes code snippets with relevant headers to make it so the user can easily locate the information they are seeking!
   
 Remarks: On this project, I definetly wanted to take the next steps on learning about responsive web design! I think that I understand the important conceptual concepts about layouts well, but I didn't really understand media queries. I watched a couple of videos along with the FCC tutorials, and I was able to use them!
-I created two media queries, one for tablets and one for phones. I'll add images underneath to show the responsiveness aspect of the website!
+I created two media queries, one for tablets and one for phones. I'll add images/videos underneath to show the responsiveness aspect of the website!
+
+Computer View: https://youtu.be/NcqXL_QrFw0
+Mobile View: 
+Tablet View: Coming Soon :)
 
 Something that I really wanted to do a better job with is learning CSS variables and pseudoselectors. We haven't covered variables yet in the class, but I watched a Kevin Powell video on them! Here is the use!
 
