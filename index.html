@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arav's Technical Documentation Page</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        .container {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Big-O Complexity</header>
+        <div>
+        <a href="#bigONotation" class="nav-link">Big-O Definition</a>
+        </div>
+        <div>
+        <a href="#timeComplexity" class="nav-link">Time Complexity vs Space Complexity</a>
+        </div>
+        <div>
+        <a href="#O(1)" class="nav-link">O(1) Time Complexity</a>
+        </div>
+        <div>
+        <a href="#" class="nav-link">with O(1) Time Complexity Examples</a>
+        </div>
+        <div>
+        <a href="#O(n)" class="nav-link">O(n) Time Complexity</a>
+        </div>
+        <div>
+         <a href="#Olog(n)" class="nav-link">O(log n) Time Complexity</a>
+         </div>
+         <div>
+          <a href="#O(N^2)" class="nav-link">O(n^2) Time Complexity</a>
+          </div>
+          <div>
+           <a href="#references" class="nav-link">O(n) References</a>
+           </div>
+    </nav>
+    
+    <main id="main-doc">
+        <section class="main-section">
+            <div class="container">
+                <header id="#bigONotation">Big-O Notation Definition</header>
+            </div>
+            <p>Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument approaches infinity. In computer science, it is used to analyze the time and space complexity of algorithms.</p>
+        </section>
+        
+        <section class="main-section">
+            <div class="container">
+                <header id = "#timeComplexity">Time Complexity vs Space Complexity</header>
+            </div>
+            <p>Time Complexity: Time complexity measures the amount of time an algorithm takes to complete as a function of the size of its input. It helps us understand how the execution time of an algorithm grows with input size.</p>
+            <p>Space Complexity: Space complexity measures the amount of memory space an algorithm requires as a function of the size of its input. It helps us understand how much memory an algorithm consumes with increasing input size.</p>
+        </section>
+        
+        <section class="main-section">
+            <div class="container">
+                <header id="O(1)">O(1) Time Complexity</header>
+            </div>
+            <p>Algorithms with constant time complexity have a fixed execution time regardless of the input size. In the example above, it is O(1) time complexity because it will be constant, regardless of the size of the array!</p>
+            <pre><code>public void printFirstElement(int[] array) {
+      System.out.println(array[0]);
+ }
+            </code></pre>
+        </section>
+        
+        <section class="main-section">
+            <div class="container">
+                <header>Popular Actions with O(1) Time Complexity</header>
+            </div>
+            <ul>
+                <li>Accessing a known element from an array</li>
+                <li>Finding an element in a hashset</li>
+                <li>Adding to a Stack</li>
+                <li>Removing/Adding from a Queue</li>
+                <li>Removing/Adding from the Head/End of a LinkedList</li>
+            </ul>
+            <i><p>Note: Some operations may take more than O(1) time complexity based on our implementation. Our technical documentation follows Georgia Tech's <a href="https://bpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/e/1628/files/2023/04/Spring-2023-CS-1332-StudyPalooza-Worksheet-Answer-Key.pdf">CS 1332 Time Complexity</a> Sheet!</p></i>
+        </section>
+        
+        <section class="main-section">
+            <div class="container">
+                <header id="O(n)">O(n) Time Complexity</header>
+            </div>
+            <p>Linear Time Complexity: Algorithms with linear time complexity have execution times proportional to the input size.</p>
+            <pre><code>public void printAllElements(int[] array) {
+    for (int num : array) {
+        System.out.println(num);
+    }
+}
+            </code></pre>
+        </section>
+        
+        <section class="main-section">
+            <div class="container">
+                <header class="log(n)">O(log n) Time Complexity - Binary Search</header>
+            </div>
+            <p>Binary search is an algorithm with logarithmic time complexity. It efficiently finds the position of a target value within a sorted array by repeatedly dividing the search interval in half.</p>
+            <p>In the example below, the binarySearch method demonstrates O(log n) time complexity as it halves the search interval with each iteration, making the search more efficient as the input size grows.</p>
+            <pre><code>
+public int binarySearch(int[] arr, int target) {
+    int low = 0;
+    int high = arr.length - 1;
+
+    while (low <= high) {
+        int mid = (low + high) / 2;
+        if (arr[mid] == target) {
+            return mid; // Found the target value
+        } else if (arr[mid] < target) {
+            low = mid + 1; 
+        } else {
+            high = mid - 1;
+        }
+    }
+    return -1; 
+}
+            </code></pre>
+        </section>
+        
+        <section class="main-section">
+            <div class="container">
+                <header class="O(N^2)">O(N^2) Time Complexity</header>
+            </div>
+            <p>Algorithms with quadratic time complexity have a execution time proportional to the square of the input size. In the example below, it is O(N^2) time complexity because the nested loops iterate through the array, resulting in each element being compared with every other element.</p>
+            <pre><code>public void printPairs(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+        for (int j = i + 1; j < arr.length; j++) {
+            System.out.println("(" + arr[i] + ", " + arr[j] + ")");
+        }
+    }
+}
+            </code></pre>
+        </section>
+        
+        <section>
+            <div class="container">
+                <header id="references">References</header>
+            </div>
+            <p>References can be found at <a href="#">link</a>.</p>
+        </section>
+    </main>
+</body>
+</html>
